@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 350vh;
+    background-image: url("building.jpg");
+    background position: center center;
+    background-size: cover;
+    
+}
+
+.x1{
+    margin: 3rem;
+    color: white;
+    font-size: 2.4rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+#h1{
+    margin: 5rem;
+}
+
+.s1{
+    
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    margin-top: 6rem;
+}
+
+.b1{
+    flex-direction: column;
+    text-align: center;
+    width: 10rem;
+    
+}
+
+
+input{
+    border-radius: 2rem;
+    height: 2rem;
+    width: 5rem;
+    border-color: transparent;
+    text-align: center;
+}
